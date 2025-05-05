@@ -1,4 +1,4 @@
-package com.solo.scentory.function.controller;
+package com.solo.scentory.function.main.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
