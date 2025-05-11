@@ -5,9 +5,32 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <title>메인</title>
 </head>
 <body>
+<div class="main-container">
+
+    <!-- 네비게이션 -->
+    <nav th:replace="common/nav :: navFragment" class="nav-class"> </nav>
+
+    <!-- 메인 콘텐츠 영역 -->
+    <main class="main-content">
+        <!-- 상단 두 개의 아티클 -->
+        <section class="main-top-box">
+            <article class="main-box">상단 컨텐츠 1</article>
+            <article class="main-box">상단 컨텐츠 2</article>
+        </section>
+
+        <!-- 하단 두 개의 아티클 -->
+        <section class="main-bottom-box">
+            <article class="main-box">하단 컨텐츠 1</article>
+            <article class="main-box">하단 컨텐츠 2</article>
+        </section>
+    </main>
+
+</div>
 
 </body>
 </html>

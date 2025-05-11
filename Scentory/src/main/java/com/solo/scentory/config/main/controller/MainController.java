@@ -1,4 +1,4 @@
-package com.solo.scentory.function.main.controller;
+package com.solo.scentory.config.main.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +8,8 @@ public class MainController {
 
     @GetMapping("/")
     public String mainPage(){
-        return "main";
+
+        return "common/main";
     }
 
 }
